@@ -1,0 +1,63 @@
+# ── Python bytecode ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ── C extensions ──────────────────────────────────────────────────────────────
+*.so
+
+# ── Distribution / packaging ─────────────────────────────────────────────────
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ── IDE / Editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Testing and coverage ─────────────────────────────────────────────────────
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+
+# ── Generated runtime artifacts (bonus / regression runs) ────────────────────
+# The reports/ directory is used at runtime for bonus CSV export and regression
+# testing. None of its contents are required for evaluation.
+reports/
+
+# ── NOTE: report.json at the repository root IS required by the assignment ───
+# and is intentionally tracked (NOT ignored).

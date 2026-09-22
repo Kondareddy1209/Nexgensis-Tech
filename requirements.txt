@@ -1,0 +1,4 @@
+# FastBox Logistics Delivery Simulator
+# This project uses the Python Standard Library only.
+# No external third-party dependencies are required.
+# Minimum supported version: Python 3.8+
