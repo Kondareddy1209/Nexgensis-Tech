@@ -219,9 +219,13 @@ Simulation results are written to `report.json` via `simulator/reporter.py`.
 ### Field Definitions:
 - `packages_delivered` (`int`): Count of packages successfully delivered by the agent.
 - `total_distance` (`float`): Total Euclidean units traveled across all delivery legs, rounded to 2 decimal places.
-- `efficiency` (`float`): Ratio of distance per package delivered:
-  $$\text{efficiency} = \frac{\text{total\_distance}}{\text{packages\_delivered}}$$
-  **Lower efficiency values indicate superior performance** (less distance traveled per package delivered).
+- `efficiency` (`float`): Ratio of total distance traveled to the number of packages delivered.
+
+  **Formula:**
+
+  `efficiency = total_distance / packages_delivered`
+
+  Lower efficiency values mean less distance traveled per package delivered.
 - `best_agent` (`str`): The agent identifier with the lowest efficiency score among active agents.
 
 ### Edge Case Handling:
